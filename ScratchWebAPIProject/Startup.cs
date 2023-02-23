@@ -40,6 +40,7 @@ namespace ScratchWebAPIProject
 
 
             // services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+            // delete later
 
             services.AddDbContext<EmployeeDBContext>(
                 options =>
